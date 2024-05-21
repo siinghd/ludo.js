@@ -1,0 +1,52 @@
+{
+  "name": "ludo",
+  "version": "1.0.0",
+  "description": "ludo.js is a lightweight and modern JavaScript library for building classic Ludo up to 24 players. It provides a simple and intuitive API for managing the game state and logic.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "start": "tsup --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siinghd/ludo.js.git"
+  },
+  "keywords": [
+    "ludo",
+    "ludo.js",
+    "ludo",
+    "game",
+    "game",
+    "ludo.js",
+    "library",
+    "ludo",
+    "king",
+    "parcheesi",
+    "sorry",
+    "javascript",
+    "multiplayer",
+    "board",
+    "game",
+    "library"
+  ],
+  "author": "Harpreet Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siinghd/ludo.js/issues"
+  },
+  "homepage": "https://github.com/siinghd/ludo.js#readme",
+  "devDependencies": {
+    "@types/eventemitter3": "^2.0.2",
+    "@types/node": "^20.12.12",
+    "@types/uuid": "^9.0.8",
+    "@types/ws": "^8.5.10",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "eventemitter3": "^5.0.1",
+    "uuid": "^9.0.1",
+    "ws": "^8.17.0"
+  }
+}
